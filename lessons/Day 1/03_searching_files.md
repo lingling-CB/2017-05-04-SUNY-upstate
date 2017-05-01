@@ -249,7 +249,7 @@ $ grep PAIRED SraRunTable.txt > SraRunTable_only_paired_end.txt
 
 ## Where can I learn more about the shell?
 
-- Software Carpentry tutorial - [The Unix shell](http://software-carpentry.org/v4/shell/index.html)
+- Software Carpentry tutorial - [The Unix shell](http://v4.software-carpentry.org/shell/index.html)
 - The shell handout - [Command Reference](http://files.fosswire.com/2007/08/fwunixref.pdf)
 - [explainshell.com](http://explainshell.com)
 - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
