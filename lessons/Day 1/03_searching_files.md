@@ -1,9 +1,8 @@
 ---
 layout: page
-title: "Introduction to the Shell"
-authors: "Sheldon McKay, Paul Wilson, Milad Fatenejad, Sasha Wood and Radhika Khetani"
+title: "Searching files"
 comments: true
-date: 2015-07-30
+date: 2017-05-04
 ---
 
 ## Learning objectives
@@ -38,10 +37,15 @@ $ grep -B1 -A2 NNNNNNNNNN SRR098026.fastq
 
 for example:
 
-    @SRR098026.177 HWUSI-EAS1599_1:2:1:1:2025 length=35
-    CNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-    +SRR098026.177 HWUSI-EAS1599_1:2:1:1:2025 length=35
-    #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    @SRR098026.1 HWUSI-EAS1599_1:2:1:0:968 length=35
+    NNNNNNNNNNNNNNNNCNNNNNNNNNNNNNNNNNN
+    +SRR098026.1 HWUSI-EAS1599_1:2:1:0:968 length=35
+    !!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!
+    @SRR098026.2 HWUSI-EAS1599_1:2:1:0:312 length=35
+    NNNNNNNNNNNNNNNNANNNNNNNNNNNNNNNNNN
+    +SRR098026.2 HWUSI-EAS1599_1:2:1:0:312 length=35
+    !!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!
+
 
 ****
 **Exercise**
@@ -201,7 +205,7 @@ This returns a sorted list (too long to show here) of PAIRED and SINGLE values. 
 count the different categories.
 
 ```bash
-$ cut -f3 SraRunTable.txt | grep -v LibraryLayout_s |	sort | uniq -c
+$ cut -f3 SraRunTable.txt | grep -v LibraryLayout_s | sort | uniq -c
 ```
 
       2 PAIRED
