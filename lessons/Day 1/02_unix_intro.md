@@ -2,7 +2,7 @@
 layout: page
 title: "The Shell"
 comments: true
-date: 2014-07-30
+date: 2017-05-04
 ---
 
 # Introduction to cloud computing
