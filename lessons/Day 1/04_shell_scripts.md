@@ -1,7 +1,6 @@
 ---
 title: "The Shell: Loops & Scripts"
-author: "Bob Freeman, Mary Piper, Radhika Khetani, Meeta Mistry"
-date: "Wednesday, October 28, 2015"
+date: "2017-05-04"
 ---
 
 
