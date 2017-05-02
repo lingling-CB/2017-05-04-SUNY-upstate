@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Searching files"
-comments: true
 date: 2017-05-04
 ---
 
