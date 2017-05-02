@@ -1,4 +1,5 @@
 ---
+layout: "page"
 title: "The Shell: Loops & Scripts"
 date: "2017-05-04"
 ---
