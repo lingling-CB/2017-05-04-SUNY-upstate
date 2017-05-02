@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Introduction to the Shell"
-comments: true
 date: 2017-05-04
 ---
 
